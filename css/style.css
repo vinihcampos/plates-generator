@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+}
+
+#plate{
+	width: 400mm;
+	height: 130mm;
+	background: #000;
+	border-radius: 7mm;
+	position: absolute;
+}
+
+#strip{
+	width: 386mm;
+	height: 30mm;
+	margin-left: 7mm;
+	margin-top: 7mm;
+	margin-right: 7mm; 
+	background: #0033a0;
+	border-radius: 3mm 3mm 0 0;
+	position: relative;
+}
+
+#mercosul{
+	width: 32mm;
+	height: 24mm;
+	margin-top: 3mm;
+	margin-left: 15mm;
+	float: left;
+}
+
+#country{
+	width: 59mm;
+	height: 12mm;
+	padding-top: 10mm;
+	margin-left: 116mm;
+	letter-spacing: 0.3cm;
+	font-size: 1.5cm;
+	font-family: gs;
+	color: #fff;
+	float: left;
+}
+
+#country_flag{
+	width: 30mm;
+	height: 22mm;
+	margin-top: 4mm;
+	margin-right: 3mm;
+	border: 2px solid #fff;
+	border-radius: 3mm;
+	float: right;
+}
+
+#content{
+	width: 386mm;
+	height: 86mm;
+	margin-left: 7mm;
+	margin-right: 7mm;
+	margin-bottom: 7mm;
+	border-radius: 0 0 3mm 3mm;
+	padding: 0px;
+	background: #fff;
+	position: relative;
+}
+
+#waves{
+	width: 386mm;
+	height: auto;
+	margin-top: 62mm;
+	position: absolute;
+}
+
+#dov{
+	width: 11mm;
+	height: 100%;
+	float: left;
+	z-index: 99999;
+	background: rgb(128,128,128);
+	/*background: gray; /* For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(gray, white, white, gray); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(gray, white, white, gray); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(gray, white, white, gray); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(gray, white, white, gray); /* Standard syntax */
+    border-radius: 0 0 0 3mm;
+    position: absolute;
+}
+
+#text{
+	width: 315mm;
+	height: 65mm;
+	padding: 0px;
+	margin-top: -15mm;
+	margin-left: 20mm;
+	letter-spacing: 0.5cm;
+	font-size: 410px;
+	font-family: fe;
+	float: left;
+	position: absolute;
+}
+
+#information{
+	width: 32mm;
+	height: 100%;
+	float: right;
+}
+
+#state{
+	width: 26mm;
+	height: 20mm;
+	margin: 4mm 4mm 0 0;
+	border: 1mm solid #000;
+	border-radius: 3mm;
+	float: right;
+}
+
+#arms{
+	width: 15mm;
+	height: 20mm;
+	margin: 2mm 10mm 0 0;
+	float: right;
+}
+
+#city{
+	width: 20mm;
+	height: auto;
+	margin-top: 2mm;
+	margin-right: 8mm;
+	font-family: gs;
+	font-size: 5mm;
+	text-align: center;
+	float: right;
+}
+
