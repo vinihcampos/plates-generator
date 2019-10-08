@@ -36,7 +36,7 @@ hr{
 #plate{
 	width: 400mm;
 	height: 130mm;
-	background: url(../img/mercosul_template.png);
+	background: url(/static/img/mercosul_template.png);
 	border-radius: 7mm;
 	position: relative;
 	padding: 1mm;
@@ -132,7 +132,7 @@ hr{
 	text-align: center;
 	position: absolute;
 	color: transparent;
-	background: url(../img/mercosul_template.png);
+	background: url(/static/img/mercosul_template.png);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

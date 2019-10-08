@@ -1,0 +1,9 @@
+@font-face {
+    font-family: gs;
+    src: url(/static/font/gill-sans.otf);
+}
+
+@font-face {
+    font-family: fe;
+    src: url(/static/font/fe-ngschrift.otf);
+}
