@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Mercosur plates generator</title>
+
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href = "{{ url_for('static', filename='css/app.css') }}">
+	<link rel="stylesheet" href = "{{ url_for('static', filename='css/fonts.css') }}">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+  	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+  	<!-- JS -->
+  	<script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/168041a3c3.js"></script>
+
+</head>
+<body onload="getSize()">
+	{% block content %}
+    {% endblock %}
+</body>
+</html> 

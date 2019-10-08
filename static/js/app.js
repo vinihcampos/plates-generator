@@ -10,7 +10,6 @@ function getSize(){
 }
 
 function onWindowResize() {
-
 	HEIGHT = window.innerHeight;
 	size = HEIGHT + "px";
 
@@ -32,5 +31,5 @@ function generatePlate(){
 		document.getElementById("c" + (i+1).toString()).style.marginLeft = ( minMarginLeft + i * 46 ).toString() + "mm";
 	}
 
-	document.getElementById("country-flag").src = "img/country/" + country + "/" + country + ".png";
+	document.getElementById("country-flag").src = "/static/img/country/" + country + "/" + country + ".png";
 }
