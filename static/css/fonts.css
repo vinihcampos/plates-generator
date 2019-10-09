@@ -7,3 +7,8 @@
     font-family: fe;
     src: url(/static/font/fe-ngschrift.otf);
 }
+
+@font-face {
+    font-family: Oswald;
+    src: url(/static/font/Oswald-Regular.ttf);
+}
